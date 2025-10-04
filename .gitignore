@@ -1,0 +1,38 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]estResults/
+[Dd]ebug*/
+[Rr]elease*/
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Other temp files
+*.tmp
+*.log
+*.bak
+*.cache
+*.pdb
+
+# Rider / JetBrains
+.idea/
+
+# Ignore user-specific database/model files
+*.dbmdl
+*.jfm
+*.tlog
