@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wraedar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4623e733b7ad99df5b4221c7f365e4da0099cc2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wraedar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wraedar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
