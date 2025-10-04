@@ -1,0 +1,17 @@
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\Wraedar.deps.json
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\Wraedar.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\DieselExileTools.Common.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\DieselExileTools.GameHelper2.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\DieselExileTools.GameHelper2.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0-windows\DieselExileTools.Common.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.csproj.AssemblyReference.cache
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.AssemblyInfoInputs.cache
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.AssemblyInfo.cs
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.csproj.CoreCompileInputs.cache
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.csproj.Up2Date
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\refint\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\Wraedar.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0-windows\ref\Wraedar.dll

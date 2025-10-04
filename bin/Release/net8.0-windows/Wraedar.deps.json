@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Wraedar/1.0.0": {
+        "dependencies": {
+          "DieselExileTools_GameHelper2": "1.0.0"
+        },
+        "runtime": {
+          "Wraedar.dll": {}
+        }
+      },
+      "DieselExileTools_GameHelper2/1.0.0": {
+        "runtime": {
+          "DieselExileTools_GameHelper2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wraedar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DieselExileTools_GameHelper2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

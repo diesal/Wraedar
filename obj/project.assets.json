@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DieselExileTools_GameHelper2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DieselExileTools_GameHelper2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DieselExileTools_GameHelper2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DieselExileTools_GameHelper2/1.0.0": {
+      "type": "project",
+      "path": "../DieselExileTools_GameHelper2/DieselExileTools_GameHelper2.csproj",
+      "msbuildProject": "../DieselExileTools_GameHelper2/DieselExileTools_GameHelper2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DieselExileTools_GameHelper2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\diesel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Codebase\\VS Solutions\\GameHelperPlugins\\Wraedar\\Wraedar.csproj",
+      "projectName": "Wraedar",
+      "projectPath": "D:\\Codebase\\VS Solutions\\GameHelperPlugins\\Wraedar\\Wraedar.csproj",
+      "packagesPath": "C:\\Users\\diesel\\.nuget\\packages\\",
+      "outputPath": "D:\\Codebase\\VS Solutions\\GameHelperPlugins\\Wraedar\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\diesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\Codebase\\VS Solutions\\GameHelperPlugins\\DieselExileTools_GameHelper2\\DieselExileTools_GameHelper2.csproj": {
+              "projectPath": "D:\\Codebase\\VS Solutions\\GameHelperPlugins\\DieselExileTools_GameHelper2\\DieselExileTools_GameHelper2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

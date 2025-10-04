@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <Target Name="CopyFiles" AfterTargets="Build">
+    <Exec Command="robocopy &quot;$(MSBuildProjectDirectory)\bin\$(Configuration)\net8.0-windows&quot; &quot;D:\Stuff\POE2\GameHelper\Plugins\$(ProjectName)&quot; /E /XO /R:2 /W:5 || exit 0" />
+  </Target>
+  
+  <ItemGroup>
+    <Content Include="PinFiles\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DieselExileTools_GameHelper2\DieselExileTools_GameHelper2.csproj" />
+  </ItemGroup>
+
+  <!-- References to GameHelper packages -->
+  <ItemGroup>
+    
+    <!-- Live Gamehelper -->
+    <Reference Include="GameHelper">
+      <HintPath>$(gamehelper2Package)\GameHelper.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GameOffsets">
+      <HintPath>$(gamehelper2Package)\GameOffsets.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Dev Gamehelper -->
+    <!--<Reference Include="GameHelper">
+      <HintPath>$(gamehelper2DevPackage)\GameHelper.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GameOffsets">
+      <HintPath>$(gamehelper2DevPackage)\GameOffsets.dll</HintPath>
+      <Private>false</Private>
+    </Reference>-->
+    
+    <Reference Include="ClickableTransparentOverlay">
+      <HintPath>$(exapiPackage)\ClickableTransparentOverlay.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(exapiPackage)\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ImGui.NET">
+      <HintPath>$(gamehelper2Package)\ImGui.NET.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp">
+      <HintPath>$(gamehelper2Package)\SixLabors.ImageSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Coroutine">
+      <HintPath>$(gamehelper2Package)\Coroutine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+  </ItemGroup>
+  
+    
+</Project>

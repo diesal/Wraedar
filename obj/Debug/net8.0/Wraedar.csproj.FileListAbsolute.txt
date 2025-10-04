@@ -1,0 +1,11 @@
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0\Wraedar.deps.json
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\bin\Debug\net8.0\Wraedar.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.AssemblyInfoInputs.cache
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.AssemblyInfo.cs
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.csproj.CoreCompileInputs.cache
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\refint\Wraedar.dll
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\Wraedar.pdb
+D:\Codebase\VS Solutions\GameHelperPlugins\Wraedar\obj\Debug\net8.0\ref\Wraedar.dll

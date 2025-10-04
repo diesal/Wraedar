@@ -1,0 +1,2304 @@
+{
+  "G1_2": [
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/FallenTreeSlash_in.tdtx:2-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mud Burrow",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/FallenTreeSlash_out.tdtx:2-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mud Burrow",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/FallenTreeWoods_in.tdtx:2-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mud Burrow",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/FallenTreeWoods_out.tdtx:2-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mud Burrow",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_01.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_02.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_03.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_04.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_05.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_06.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Slash/HagWitchArena_07.tdtx:5-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beira of the Rotten (10% Cold Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/Clearfell_OldForest_Transition_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Grelwood",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_3": [
+    {
+      "Path": "Metadata/Terrain/Woods/Mudburrow/Path/path_St_Spawner_v02_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "To Devourer ",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_4": [
+    {
+      "Path": "Metadata/Terrain/Woods/GrimTangle/areatransitions/GrimtangleTransitionDown_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Corpse Tree (waypoint)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/OldForestWoods/Feature/PlantBoss_01.tdtx:0-y:5",
+      "ExpectedCount": 1,
+      "Label": "The Moving Bramble (Skill Gem Level 2)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/OldForestWoods/Feature/BurnTheWitch_01.tdtx:0-y:4",
+      "ExpectedCount": 1,
+      "Label": "Areagne's Hut (Support Gem Level 1 and Flasks)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/OldForestToGrimTangle_02_metatile.tdtx:6-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Grim Tangle",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/redvale_transition_02_oldforest.tdtx:2-y:4",
+      "ExpectedCount": 1,
+      "Label": "The Red Vale",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/OldForest_Clearfell_transition_01.tdtx:4-y:3",
+      "ExpectedCount": 1,
+      "Label": "Clearfell",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_5": [
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/redvale_transition_02_redvale.tdtx:1-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Grelwood",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_6": [
+    {
+      "Path": "Metadata/Terrain/Woods/GrimTangle/feature/BossArena_01.tdtx:5-y:7",
+      "ExpectedCount": 1,
+      "Label": "Den of the Druid (Support Gem Level 1)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GrimTangle/areatransitions/GrimtangleTransitionUp_02.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "Cemetery of the Eternals",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GrimTangle/areatransitions/IntroArea.tdtx:7-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Grelwood",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_7": [
+    {
+      "Path": "Metadata/Terrain/Woods/Graveyard/Feature/mausoleum_01.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mausoleum of the Praetor",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Graveyard/Feature/tomb_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Tomb of the Consort",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Graveyard/Feature/tomb_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Tomb of the Consort",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Graveyard/Feature/GraveyardArena.tdtx:3-y:10",
+      "ExpectedCount": 1,
+      "Label": "Arena / Hunting Grounds",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Graveyard/Feature/GraveyardToGrimTangle_transition_01.tdtx:2-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Grim Tangle",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_8": [
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Transitions/Transition_Mausoleum_to_Graveyard_02.tdtx:0-y:2",
+      "ExpectedCount": 1,
+      "Label": "Cemetery of the Eternals",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Transitions/Mausoleum_SecretEntrance_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "Forgotten Riches",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Feature/MausoleumBoss_ArenaFloor.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "MausoleumBoss_ArenaFloor",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Transitions/Transition_Tomb_to_Graveyard_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Unknown 2",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_9": [
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Feature/TombBoss_ArenaFloor.tdtx:2-y:2",
+      "ExpectedCount": 1,
+      "Label": "Asinia",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/GraveyardDungeons/Feature/Tomb_Landmark_01.tdtx:4-y:7",
+      "ExpectedCount": 1,
+      "Label": "Embattled Trove (Support Gem Level 1)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_11": [
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/CanopyRoadTransition_01.tdtx:4-y:2",
+      "ExpectedCount": 1,
+      "Label": "Freythorn",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Features_Cairns/CairnBrecon.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "Crowbell Start (+2 Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/Bramble_Cnr_transition_01.tdtx:0-y:2",
+      "ExpectedCount": 1,
+      "Label": "Ogham Farmlands Or Deadend",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/HuntingGrounds/RitualClearing01.tdtx:0-y:4",
+      "ExpectedCount": 1,
+      "Label": "Ritual Site (Level 4 Skill Gem)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/AreaTransitions/CliffRoad_Cnr_transition_01.tdtx:3-y:4",
+      "ExpectedCount": 1,
+      "Label": "Cemetery of the Eternals",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Features_Cairns/DolmenDeAzutan_03.tdtx:0-y:9",
+      "ExpectedCount": 1,
+      "Label": "Crowbell Arena (+2 Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Features_Cairns/GrassHole_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Dryadic Ritual (Support gem)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_12": [
+    {
+      "Path": "Metadata/Terrain/Woods/Canopy/Features/CanopySpireTransition_01.tdtx:2-y:2",
+      "ExpectedCount": 1,
+      "Label": "Hunting Grounds",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Canopy/Features/CanopyArena.tdtx:8-y:8",
+      "ExpectedCount": 1,
+      "Label": "The King in the Mists (30 Spirit + Spirit Gem Level 4)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_13_1": [
+    {
+      "Path": "Metadata/Terrain/Woods/Village/RoadFields/Feature/YurtUna_01.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "Una's Lute (+2 Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Village/RoadFields/Bosstile_01.tdtx:5-y:5",
+      "ExpectedCount": 1,
+      "Label": "Crop Circle (Skill Gem Level 4)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Village/RoadFields/Feature/RoadVillage_Areatransition.tdtx:8-y:3",
+      "ExpectedCount": 1,
+      "Label": "Ogham Village",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_13_2": [
+    {
+      "Path": "Metadata/Terrain/Woods/Village/Huts/VillageArena_02.tdtx:6-y:7",
+      "ExpectedCount": 1,
+      "Label": "Executioner's Block",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Village/Blacksmith_Large.tdtx:7-y:9",
+      "ExpectedCount": 1,
+      "Label": "Renly's Tools (Salvaging Bench)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Village/RoadFields/Feature/RoadVillage_Areatransition_village_side.tdtx:7-y:2",
+      "ExpectedCount": 1,
+      "Label": "Ogham Farmlands",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_14": [
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/CourtyardFeatures/Manor_GrandEntrance_Transition_01.tdtx:2-y:4",
+      "ExpectedCount": 1,
+      "Label": "Oghams Manor",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/CourtyardFeatures/Gallows_02.tdtx:9-y:2",
+      "ExpectedCount": 1,
+      "Label": "Gallows (Support Gem Level 1)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Village/Huts/VillageArena_02_courtyard_side.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Entrance",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G1_15": [
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/Features/Chapel_boss_01.tdtx:6-y:8",
+      "ExpectedCount": 1,
+      "Label": "Candlemass (+20 Max Life)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/Interior/Features/ThickWall_StairsDown_Cc_01.tdtx:1-y:2",
+      "ExpectedCount": 1,
+      "Label": "Stairs Down",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/Features/ArenaTop_01.tdtx:8-y:2",
+      "ExpectedCount": 1,
+      "Label": "Throne of the Wolf",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/Interior/Features/Manor_Entrance_01.tdtx:2-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Manor Ramparts",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Manor/Interior/Features/ThickWall_AreaTransition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs Up",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/DunePlatform/Dune_Platform_Feature_01.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "Raiders Cliffs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/TraitorsPassage/TraitorsPassage_Arena_01.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "Prison of the Disgraced (Djinn Barya)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/CavePath/Features/Thickwall_Cave_Entrance.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Halani Gates",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/CavePath/Features/cave_entrance_01.tdtx:1-y:5",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/CavePath/Features/Landmark_feature_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "Bell Chest (Skill Gem Level 6)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_3": [
+    {
+      "Path": "Metadata/Terrain/Desert/Gates/Features/boss_arena.tdtx:5-y:4",
+      "ExpectedCount": 1,
+      "Label": "Infested Tower",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/AreaTransitions/Ruin_PassageStair_01.tdtx:1-y:3",
+      "ExpectedCount": 1,
+      "Label": "Traitor's Passage",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_4_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/BuriedCity/Features/QueenKabalaRoom_01_meta01.tdtx:2-y:8",
+      "ExpectedCount": 1,
+      "Label": "Kabala (+2 Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/BuriedCity/Features/Keth_Stairs_RuinEntrance.tdtx:4-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Lost City",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/BuriedCity/Features/Keth_SinkholeTransition_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "Looted Vault",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/BuriedCity/Features/Keth_Stairs_RuinEntrance.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "Looted Vault",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/BuriedCity/Features/Cityroof_Entrance.tdtx:6-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_4_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Features/Thickwall_StairsDown_01.tdtx:2-y:2",
+      "ExpectedCount": 1,
+      "Label": "Buried Shrines",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Features/KethEntrance_01.tdtx:1-y:2",
+      "ExpectedCount": 1,
+      "Label": "Keth",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_4_3": [
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Features/Thickwall_BossTransition_01.tdtx:1-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Heart of Keth",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Floor/Floortrim_BossMedallion_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Elemental Offering (Res Ring)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Features/Thickwall_StairsUp_01.tdtx:1-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Lost City",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Floor/ThickWall_TransitionWide_St_01.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "Buried Shrines",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Arena/CentrePattern_01.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Vestibule",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Maraketh/Arena/Thickwall_GoddessStatue_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Water Goddess",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_5_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/AreaTransition_BadlandsToPits_01.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "The Bone Pits",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/Badlands_Entrance_01.tdtx:14-y:4",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/Landmark_feature_02.tdtx:4-y:7",
+      "ExpectedCount": 1,
+      "Label": "Fossilised Memorial (Support Gem Level 1)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/AbyssHole.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Lightless Passage",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "Abyss_Intro": [
+    {
+      "Path": "Metadata/Terrain/Gallows/Leagues/Abyss/AbyssHub/Tiles/AbyssPitFeature_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rare Fight",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_5_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/AreaTransition_BadlandsToPits_01.tdtx:5-y:3",
+      "ExpectedCount": 1,
+      "Label": "Mastodon Badlands",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Badlands/Features/MastodonArena_01.tdtx:4-y:5",
+      "ExpectedCount": 1,
+      "Label": "Blackrib Pit",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_6": [
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/titan_valley_boss_01.tdtx:8-y:3",
+      "ExpectedCount": 1,
+      "Label": "Medallion",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/TitanQuest01.tdtx:4-y:6",
+      "ExpectedCount": 1,
+      "Label": "Ancient Seal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/TitanQuest02.tdtx:5-y:3",
+      "ExpectedCount": 1,
+      "Label": "Ancient Seal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/TitanQuest03.tdtx:5-y:2",
+      "ExpectedCount": 1,
+      "Label": "Ancient Seal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/GrottoExit01.tdtx:3-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Titan Grotto",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/UnwalkableDune/Titans/Feature/CartEntrance_01.tdtx:8-y:3",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_7": [
+    {
+      "Path": "Metadata/Terrain/Desert/CaveTitans/Features/Titan_Arena_01.tdtx:5-y:5",
+      "ExpectedCount": 1,
+      "Label": "Dais of Reckoning",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/CaveTitans/Features/Staircase_Entrance_01.tdtx:2-y:10",
+      "ExpectedCount": 1,
+      "Label": "Valley of the Titans",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_8": [
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Base/Arena/bossroom_02.tdtx:7-y:7",
+      "ExpectedCount": 1,
+      "Label": "Forgotten Corpses",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Base/PillarBase_CartTransition_01.tdtx:1-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Base/PillarBaseWide_StairsUp_01.tdtx:3-y:1",
+      "ExpectedCount": 1,
+      "Label": "Path of Mourning",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_9_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Upper/PillarUpper_StairsUp_01.tdtx:4-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Spires of Deshar",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Lower/Wide/PillarLowerWide_StairsDown_01.tdtx:3-y:0",
+      "ExpectedCount": 1,
+      "Label": "Deshar",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Lower/Pillar_TinyBalcony_feature_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Shifting Vases (Support Gem Level 1)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_9_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Tops/PillarArena.tdtx:5-y:4",
+      "ExpectedCount": 1,
+      "Label": "Arena",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Tall/PillarTall_StairsDown_01.tdtx:1-y:2",
+      "ExpectedCount": 1,
+      "Label": "Path of Mourning",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Tops/PillarTopWide_Shrine_01.tdtx:1-y:2",
+      "ExpectedCount": 1,
+      "Label": "Sisters of Garukhan (10% Lightning Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_10_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/Quarry/Features/MiningShaftCrane.tdtx:2-y:2",
+      "ExpectedCount": 1,
+      "Label": "Mawdun Mine",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Quarry/Features/Maraketh_Entrance_01.tdtx:5-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Ardura Caravan",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_10_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/Foundry/Features/Foundry_Bossroom_01.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Munitions Bunker",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/Quarry/Features/MiningShaftFloor.tdtx:1-y:1",
+      "ExpectedCount": 1,
+      "Label": "Mawdun Quarry",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_12_1": [
+    {
+      "Path": "Metadata/Terrain/Desert/FarudinCarts/cart_walkway_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Dreadnought Vanguard",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_12_2": [
+    {
+      "Path": "Metadata/Terrain/Desert/FarudinCarts/Features/DreadnoughtArena_03.tdtx:4-y:7",
+      "ExpectedCount": 1,
+      "Label": "The Faridun Throne",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Desert/FarudinCarts/cart_walkway_02.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Dreadnought",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G2_13": [
+    {
+      "Path": "Metadata/Terrain/Desert/KethAscendancy/Level_1/Feature/pedestal_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Relic Altar",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_1": [
+    {
+      "Path": "Metadata/Terrain/Jungle/SandsweptMarsh/bossman.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Foul Ritual (Level 9)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/SandsweptMarsh/marsh_exit.tdtx:3-y:9",
+      "ExpectedCount": 1,
+      "Label": "Ziggurat Encampment",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/SandToWater/Feature/EntranceCaravanFord_01.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Mini Town",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Fills/JungleGroundPuddle_04.tdtx:2-y:0",
+      "ExpectedCount": 1,
+      "Label": "Orok Campfire (Lesser Jeweller's Orb)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_2_1": [
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/JungleDepths_to_ChimeralWetlands.tdtx:3-y:1",
+      "ExpectedCount": 1,
+      "Label": "Chimeral Wetlands",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Feature/Jungle_WaterwayAltar_01.tdtx:2-y:0",
+      "ExpectedCount": 1,
+      "Label": "Canal Mechanism (waypoint)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/JungleToWaterways_01.tdtx:2-y:4",
+      "ExpectedCount": 1,
+      "Label": "Jungle Ruins",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Bog/AreaTransition/EntranceBog_02.tdtx:3-y:6",
+      "ExpectedCount": 1,
+      "Label": "The Azak Bog",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AntHill/AntHollow/hollow_StSW_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Larva Hollow",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AntHill/AntJungle_Edge/AntEdge_Landmark_Feature_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Troubled Camp (WEAPONS vendor)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Waterway/Jungle_Waterway_Ramp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Matlan Waterways",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_2_2": [
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/CvWW_01.tdtx:0-y:1",
+      "ExpectedCount": 1,
+      "Label": "Narag's Hut",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Feature/Jungle_WaterwaysLever_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Waterways Lever",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_3": [
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/JungleDepths_to_SnakePit.tdtx:3-y:2",
+      "ExpectedCount": 1,
+      "Label": "The Venom Crypts",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/JungleToWaterways_01_reverse.tdtx:3-y:2",
+      "ExpectedCount": 1,
+      "Label": "Infested Barrens",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/JungleDepths_to_Town.tdtx:3-y:5",
+      "ExpectedCount": 1,
+      "Label": "Ziggurat Encampment",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/RuinedThinwall/JungleDepths_Cv_FootwallEnd_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Troubled Camp(ARMOUR VENDOR)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/RuinedThinwall/RuinedThinwall_Tri_06.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Monkeee (Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_4": [
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SnakePit_to_JungleDepths.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Jungle Ruins",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextFeatures/dungeon_altar_v01_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Quest close - passive effects",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_5": [
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/Observatory_Entrance_01.tdtx:8-y:0",
+      "ExpectedCount": 1,
+      "Label": "Deadly Nest",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/ChimeralJungle_to_ChaosTemple.tdtx:6-y:5",
+      "ExpectedCount": 1,
+      "Label": "The Temple of Chaos",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/AreaTransitions/ChimeralWetlands_to_JungleDepths.tdtx:3-y:1",
+      "ExpectedCount": 1,
+      "Label": "Infested Barrens",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_6_1": [
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextFeatures/dungeon_door_thin_boss.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "The Oubliette (10% Fire Res)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextFeatures/Machinarium_Entrance_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Jiquani's Sanctum",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextFeatures/dungeon_cave_v01_01.tdtx:2-y:0",
+      "ExpectedCount": 1,
+      "Label": "Transition",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextStairs/dungeon_stairs_straight_v01_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stair Place",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_6_2": [
+    {
+      "Path": "Metadata/Terrain/Jungle/VaalInterior/VaalGenerator/VaalGenerator.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "Generator",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/NextFeatures/VaalCorruptionAltar.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Corruption Altar",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/Machinarium/BossWall01.tdtx:3-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_7": [
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Bog/Features/BurningWitchArena.tdtx:4-y:5",
+      "ExpectedCount": 1,
+      "Label": "Ignagduk, The Bog Witch (+30 Spirit)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/JungleExterior/Bog/AreaTransition/EntranceBog_01.tdtx:3-y:3",
+      "ExpectedCount": 1,
+      "Label": "Infested Barrens",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_8": [
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SunkenCityPresent/jungle_pyramid_entrance_atziri_03.tdtx:5-y:6",
+      "ExpectedCount": 1,
+      "Label": "Apex of Filth",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SunkenCityPresent/jungle_pyramid_entrance_vault_01.tdtx:2-y:6",
+      "ExpectedCount": 1,
+      "Label": "The Molten Vault",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SunkenCityPresent/SunkenCityToTown_01.tdtx:1-y:1",
+      "ExpectedCount": 1,
+      "Label": "Ziggurat Encampment",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_9": [
+    {
+      "Path": "Metadata/Terrain/Dungeon/TreasureVault/BossChannel_02.tdtx:0-y:5",
+      "ExpectedCount": 1,
+      "Label": "Mektul, The Forgemaster (Reforging Bench)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/TreasureVault/BrutalistThickwall/Brutal_Entrance_01.tdtx:1-y:1",
+      "ExpectedCount": 1,
+      "Label": "The Drowned City",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_11": [
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/AggoratArena_01.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Queen of Filth",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Outerwall/AggoratOuterArena_Present_02.tdtx:4-y:6",
+      "ExpectedCount": 1,
+      "Label": "Cauldron Keeper",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/Present/AggoratToSunkenCity_Present_02.tdtx:4-y:5",
+      "ExpectedCount": 1,
+      "Label": "The Drowned City",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/Present/AggoratToSunkenCity_Present_01.tdtx:4-y:8",
+      "ExpectedCount": 1,
+      "Label": "Waypoint",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_12": [
+    {
+      "Path": "Metadata/Terrain/Dungeon/Ziggurat/ziggurat_outerwall_end_stairsdown_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs Down",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/Ziggurat/ziggurat_outerwall_end_stairsup_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs Up",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/Ziggurat/ziggurat_outerwall_end_stairsup_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs Up",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Dungeon/Ziggurat/ziggurat_to_sunkencity_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Ziggurat Encampment",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_14": [
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SunkenCity/jungle_pyramid_entrance_atziri_01_metatile.tdtx:6-y:5",
+      "ExpectedCount": 1,
+      "Label": "Aggorat",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/SunkenCity/jungle_town_lower_entrance_past_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Town",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_16": [
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Outerwall/AggoratOuterArena_02.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "Sacrificial Dagger (+2 Passive)",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/DoryanisSanctumEntrance_01.tdtx:4-y:4",
+      "ExpectedCount": 1,
+      "Label": "The Black Chambers",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/AggoratArena_Past_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Idol 1",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/AggoratToSunkenCity_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Utzaal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/Aggorat/Features/Aggorat_AtziriAltar_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Altar",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G3_17": [
+    {
+      "Path": "Metadata/Terrain/Dungeon/DoryanisSanctum/Features/Doryani_Arena_01.tdtx:7-y:7",
+      "ExpectedCount": 1,
+      "Label": "Arena",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Jungle/AreaTransitions/DoryanisSanctumEntranceInt_01_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Aggorat",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_1_1": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/Features/GoblinTownArena_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Goblin Arena",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/Features/GoblinMinesEntrance_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Volcanic Warrens",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/IsleOfKin/UnwalkableCliff_to_Ocean_CvSt_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Quest - Treasure map?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/SulphurRockVein_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Voltaxic spire",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/FailedDelveHub_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Lesser jewellers orb",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/RhoaCamp_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rhoa - No reward?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/RhoaCamp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rhoa - No reward?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Volcano/BeastCamp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rare - Good rewards",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_1_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/GoblinCaveEntrance_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Isle of Kin",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/GoblinCaveArena/GoblinCaveArena_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rares",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/GoblinCaveArena/GoblinCaveArena_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Goblin Arena1",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/GoblinCave/ShrineLandmark_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Shrine - No loot?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_2_1": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/KedgeBay/BossArena_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Arena - Orb of Alchemy?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Features/UnwalkableCliff_Transition_Up_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Journey's end",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/KedgeBay/UnwalkableCliff_CaveEntrance_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Quest - deadman chest",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_2_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/Features/UnwalkableCliff_Transition_Up_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Kedge Bay",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/JourneysEnd/JourneysEnd_ExplodingShip_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Loot - SHIP EXPLODES",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/JourneysEnd/BossArena_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss - Captain Hartlin",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_3_1": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TropicalIsland/Features/Shark_Arena_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss - Shark",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TropicalIsland/TropicalCliff/TropicalCliff_Cv_Cove_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Singing Caverns",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TropicalIsland/Features/TropicalCoastCliff_CrabCave_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Crab Rare",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TropicalIsland/Features/TropicalCoastCliff_CrabCave_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Singing Caverns",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_3_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/SirenDonut_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss - Siren",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/CoveTreasure_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Quest - Humming Pearl",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/EggRoom_WW_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Egg Room",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/SirenCoveEntrance_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Whakapanu Island",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_4_1": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Thickwall/CoralSinkhole/Arena/SudokuArena_03.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Pay respects at end",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Features/Spiral_Eighths/Sinkhole_Spiral_QuarterHeight_WalkableHalf_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Hall of the dead",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_4_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/HallsOfTheDead/CaveWall/Halls_CaveWall_Hinekora_Door_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "3 Test Areas",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Thickwall/CoralSinkhole/Arena/YamaArena_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss - Yama",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_7": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Island/ShrikeIsland/ShrikeIslandArena.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Arena",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/CoralDungeon/Thickwall/Island/Birdnest_Cc_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Quest - Map piece",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_5_1": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/dungeon_prison_entrance_down_v01_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Dungeon entrance down",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/prison_armoury_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Armoury",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/dungeon_prison_chapel_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Flask buff - Need key",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_5_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/LowerPrison/Maximumprison.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/LowerPrison/Warden_Office.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Warden office",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/Prison/Features/dungeon_prison_chapel_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Flask buff - Need key",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_8b": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TwilightIsland/Feature/TwilightArena.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TwilightIsland/Feature/TwilightLighthouse.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Bell - Currency",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_10": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TwilightIsland/PrecursorRuins/Arena/BossArena_Forge_PCR_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/TwilightIsland/DigSite/DigSiteFeature/Uncovered_Precursor_Feature_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Chest",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_11_1b": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/BloodFever/Features/Ngakanu/Medicine_Lady_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Medicine lady",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/BloodFever/Features/Ngakanu/NgakanuToBloodFever_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Heart of the Tribe",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "G4_11_2": [
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/BloodFever/Features/ArenaCombined/ArenaCombined_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Islands/Tiles/BloodFever/Features/Whare_fill_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Rare chests",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_1": [
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_1/feature/forest_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Forest 1 of 2",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_1/feature/monolith_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stones of serle",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_2": [
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_2/feature/farmlands_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Farmlands",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/UniqueMegalith/Tiles/RitualClearing02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_3": [
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_3/holten_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Holten",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_4": [
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_4/blackwood_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Blackwood",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_4/holtondocktransition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Soul Ferryman - Sells runes",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/interlude/part1/p1_4/holton_estate_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Holton Estate",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part1/P1_4/Chaple_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Bosses",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part1/P1_4/Prison_entrance.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Woven",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_5": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part1/P1_5/Holten_Prison_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P1_6": [
+    {
+      "Path": "Metadata/Terrain/Maps/Derelict/Tiles/StairsUp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/Derelict/Tiles/HoltenBossStairsDown_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_1": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_1/Dregs_Transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Pools of Khatal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_1/Forge_Transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Forge",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_1/Salt_Waste_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/interlude/part2/p2_1/gates_exit_transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Galai Gates",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_2": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_2/PenitentArchive_Exit.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Exit",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_3": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_3/BossRoomTile.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_3/Tiles/SealPillar_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "2 Seal locations - Loot",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_4": [
+    {
+      "Path": "Metadata/Terrain/interlude/part2/p2_4/saitwaste_entrance_transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Saitwaste Entrance",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_5": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/Gates/AreaTransitions/GatesEnd_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Gates end",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_6": [
+    {
+      "Path": "Metadata/Terrain/Maps/SevenWaters/Tiles/Feature/Arena_Transition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Entrance",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SevenWaters/Tiles/BuildingWall/BuildingWall_X_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Pillars - Buff choice",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P2_7": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part2/P2_7/Qimah_bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SevenWaters/Tiles/BuildingWall/BuildingWall_X_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Pillars - Buff choice",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_1": [
+    {
+      "Path": "Metadata/Terrain/interlude/part3/p3_1/town_to_jungle_transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Glade",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_1/Jungle_to_KriarVillage_Transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Kriar Village",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_2": [
+    {
+      "Path": "Metadata/Terrain/interlude/part3/p3_2/jungle_transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Ashen Forest",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_2/KriarVillage_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_3": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_3/GlacialTarn_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/FrozenFalls/Tiles/Cove_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Coves",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_4": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_4/Cave_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_5": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_5/Ravine_Exit_Transition.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Ravine",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_5/Medition_Ridge.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Guarenteed unique?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_6": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_6/Ravine_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "P3_7": [
+    {
+      "Path": "Metadata/Terrain/Interlude/Part3/P3_7/BloodVault_Bossroom.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "MapBluff": [
+    {
+      "Path": "Metadata/Terrain/Maps/Bluff/Tiles/Feature/Beacon_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beacon",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "MapLostTowers": [
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Upper/PillarUpper_StairsUp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/LostTowers/Tiles/PillarArena01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beacon",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "MapLostTowers_NoBoss": [
+    {
+      "Path": "Metadata/Terrain/Desert/Pillars/Upper/PillarUpper_StairsUp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "MapMesa": [
+    {
+      "Path": "Metadata/Terrain/Maps/Mesa/Tiles/Peak.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Beacon",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "MapSwampTower": [
+    {
+      "Path": "Metadata/Terrain/Maps/SwampTower/Tiles/CentrePillar_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SwampTower/Tiles/Lower_Exterior/SwampTower_BasementOuterWall_EndStairsUp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SwampTower/Tiles/Lower_Exterior/SwampTower_BasementOuterWall_EndStairsUp_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SwampTower/Tiles/Mid_Exterior/SwampTower_OuterWallEnd_StairsUp_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Maps/SwampTower/Tiles/Mid_Exterior/SwampTower_OuterWallEnd_StairsUp_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Stairs",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "*": [
+    {
+      "Path": "Metadata/Terrain/islands/tiles/bloodfever/wharewall/alleyway_to_smallalley_ccst_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Smallalley Ccst",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/islands/tiles/coraldungeon/features/area_transition_stww_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Transition",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/islands/tiles/island/oceanledge/oceanledge_to_lowerledge_x_karui_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Lowerledge X Karui",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/islands/tiles/kalguurship/kalguurship_town_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Kalguur town?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/islands/tiles/kalguurship/kalguurship_town_01_ghost.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boat",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/islands/tiles/kalguurship/kalguurship_town_02.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Kalguur town?",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Woods/Woods/AzmeriLeague/Features/arenaTransition_01.tdtx:0-y:0",
+      "ExpectedCount": 1,
+      "Label": "Boss stronghold",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ],
+  "Sanctum*": [
+    {
+      "Path": "Metadata/Monsters/MarakethSanctumTrial/Hazards/HourglassLethal",
+      "ExpectedCount": 1,
+      "Label": "Crystal",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    },
+    {
+      "Path": "Metadata/Terrain/Gallows/Leagues/Sanctum/Objects/SanctumGenericLever",
+      "ExpectedCount": 1,
+      "Label": "Lever",
+      "Enabled": true,
+      "TextColor": "253, 224, 71",
+      "BGColor": "0, 0, 0"
+    }
+  ]
+}
