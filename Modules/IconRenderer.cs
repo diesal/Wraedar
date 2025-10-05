@@ -100,6 +100,12 @@ public sealed class IconRenderer(Plugin plugin) : PluginModule(plugin) {
                 RenderIcon_Friendly(entity, GetIconSettings(IconTypes.OtherPlayer));
                 continue;
             }
+            if (entity.Path.StartsWith("Metadata/Monsters/LeagueDelirium/DoodadDaemons", StringComparison.Ordinal)) {
+                if (entity.Path.Contains("ShardPack", StringComparison.OrdinalIgnoreCase)) {
+                    RenderIcon_Standard(entity, GetIconSettings(IconTypes.FracturingMirror));
+                }
+                continue;
+            }
             if (entityType == EntityTypes.Monster) {
                 RenderIcon_Monster(entity);
                 continue;
@@ -251,7 +257,27 @@ public sealed class IconRenderer(Plugin plugin) : PluginModule(plugin) {
 
         RenderAtlasIcon(entity, iconSettings.Size, iconIndex, iconColor, label);
     }
+    public void RenderIcon_Standard(Entity entity, IconSettings? iconSettings) {
+        if ( iconSettings == null || !iconSettings.Draw) return;
 
+        // build label
+        string? nameLabel = iconSettings.DrawName ? GetNameLabel(entity) : null;
+        string? healthLabel = iconSettings.DrawHealth ? GetHealthLabel(entity) : null;
+        string? label = null;
+        if (nameLabel != null || healthLabel != null) {
+            if (healthLabel == null) label = nameLabel;
+            else if (nameLabel == null) label = healthLabel;
+            else label = $"{nameLabel} ({healthLabel})";
+        }
+
+        // get color
+        var iconColor = iconSettings.Tint;
+
+        // index 
+        var iconIndex = iconSettings.Index;
+
+        RenderAtlasIcon(entity, iconSettings.Size, iconIndex, iconColor, label);
+    }
     public void RenderIcon_Monster(Entity entity, IconSettings? iconSettings=null) {
         if (!entity.TryGetComponent<ObjectMagicProperties>(out var omp)) return;
 

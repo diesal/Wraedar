@@ -166,15 +166,11 @@ public sealed class Plugin : PCore<Settings> {
                 DXT.Monitor("Wraedar", "Player Height", playerRender.TerrainHeight);
                 DXT.Monitor("Wraedar", "Player ClampedHeight", playerRender.TerrainHeight > 0.01f ? playerRender.TerrainHeight : 0f);
             }
-
-            //ImGui.SetNextWindowBgAlpha(0f);
-            //ImGui.PushStyleVar(ImGuiStyleVar.WindowBorderSize, 0f);
-            //ImGui.Begin("LargeMap Icon Window", ImGuiHelper.TransparentWindowFlags);
-            //ImGui.PopStyleVar();
-
-            MapRenderer.Render();
-            PinRenderer.Render();
-            IconRenderer.Render();
+            if (!Settings.DrawWhenPOEForegroundOnly || Core.Process.Foreground) {
+                MapRenderer.Render();
+                PinRenderer.Render();
+                IconRenderer.Render();
+            }
         }
 
         ImGui.End();

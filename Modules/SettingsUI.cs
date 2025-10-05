@@ -283,6 +283,14 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
         DXT.Label.Draw("Over Panels", checkboxLabelOptions);
 
         ImGui.SameLine();
+        DXT.Checkbox.Draw("DrawPoeBackground", ref Settings.DrawWhenPOEForegroundOnly, new() {
+            Height = controlHeight,
+            Tooltip = new("Only draw when POE is the active window (focused).")
+        });
+        ImGui.SameLine();
+        DXT.Label.Draw("Focus only", checkboxLabelOptions);
+
+        ImGui.SameLine();
         DXT.Checkbox.Draw("CenterOffset", ref Settings.DXTSettings.LargeMapCenterFix, new() {
             Height = controlHeight,
             Tooltip = new("Fix LargeMap centering",
@@ -1329,21 +1337,28 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
                 IconSettingsType = IconSettingsTypes.Monster,
                 DefaultSettings = new() { AnimateLife = true, Index = 40, Tint = _uniqueTint, HiddenTint = _uniqueHiddenTint }
             },
-            new("Rogue Exile") {
-                IconType = IconTypes.RogueExile,
-                IconSettingsType = IconSettingsTypes.Monster,
-                DefaultSettings = new() { Index = 2, Tint = _uniqueTint, HiddenTint = _uniqueHiddenTint }
-            },
-            new("Giant Rogue Exile") {
-                IconType = IconTypes.GiantRogueExile,
-                IconSettingsType = IconSettingsTypes.Monster,
-                DefaultSettings = new() { Index = 98, Tint = _uniqueTint, HiddenTint = _uniqueHiddenTint }
-            },
+            //new("Rogue Exile") {
+            //    IconType = IconTypes.RogueExile,
+            //    IconSettingsType = IconSettingsTypes.Monster,
+            //    DefaultSettings = new() { Index = 2, Tint = _uniqueTint, HiddenTint = _uniqueHiddenTint }
+            //},
+            //new("Giant Rogue Exile") {
+            //    IconType = IconTypes.GiantRogueExile,
+            //    IconSettingsType = IconSettingsTypes.Monster,
+            //    DefaultSettings = new() { Index = 98, Tint = _uniqueTint, HiddenTint = _uniqueHiddenTint }
+            //},
             new("Spirit") {
                 IconType = IconTypes.Spirit,
                 IconSettingsType = IconSettingsTypes.Monster,
                 DefaultSettings = new() { Index = 2, Tint = DXT.Color.FromRGBA(251,191,36,255), HiddenTint = DXT.Color.FromRGBA(254,243,199,255) }
             },
+            new("Fracturing Mirror") {
+                IconType = IconTypes.FracturingMirror,
+                IconSettingsType = IconSettingsTypes.Chest,
+                DefaultSettings = new() { Index = 192, Tint = DXT.Color.FromRGBA(34,211,238,255) }
+            },
+
+
         });
         IconRegistry.AddGroup(new("Friendly Icons") {
             new("Local Player") {
