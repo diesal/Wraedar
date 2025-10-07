@@ -93,7 +93,6 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
         PopStrippedStyles();
     }
 
-
     private static void PushStrippedStyles() {
 
         ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, SVector2.Zero);
@@ -119,7 +118,6 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
 
     //--| Render |-----------------------------------------------------------------------------------------------------
     public void Render() {
-
         //RenderSettingsWindow();
         RenderPinWindow();
     }
@@ -283,12 +281,20 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
         DXT.Label.Draw("Over Panels", checkboxLabelOptions);
 
         ImGui.SameLine();
-        DXT.Checkbox.Draw("DrawPoeBackground", ref Settings.DrawWhenPOEForegroundOnly, new() {
+        DXT.Checkbox.Draw("DrawIfBackground", ref Settings.DrawIfForegroundOnly, new() {
             Height = controlHeight,
-            Tooltip = new("Only draw when POE is the active window (focused).")
+            Tooltip = new("Draw when POE is focused only (foreground window).")
         });
         ImGui.SameLine();
-        DXT.Label.Draw("Focus only", checkboxLabelOptions);
+        DXT.Label.Draw("Focused only", checkboxLabelOptions);
+
+        ImGui.SameLine();
+        DXT.Checkbox.Draw("DrawInSafeArea", ref Settings.DrawInSafeArea, new() {
+            Height = controlHeight,
+            Tooltip = new("Draw in towns and hideout")
+        });
+        ImGui.SameLine();
+        DXT.Label.Draw("Safe Areas", checkboxLabelOptions);
 
         ImGui.SameLine();
         DXT.Checkbox.Draw("CenterOffset", ref Settings.DXTSettings.LargeMapCenterFix, new() {

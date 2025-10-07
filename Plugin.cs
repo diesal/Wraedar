@@ -7,7 +7,9 @@ using GameHelper.RemoteEnums;
 using GameHelper.RemoteObjects.Components;
 using ImGuiNET;
 using Newtonsoft.Json;
+using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
+using System.Runtime.InteropServices;
 using SColor = System.Drawing.Color;
 using SVector2 = System.Numerics.Vector2;
 
@@ -49,6 +51,15 @@ public sealed class Plugin : PCore<Settings> {
     private ImDrawListPtr _wraedarWindowPtr;
 
     public AreaManager AreaManager { get; } = new();
+
+    [DllImport("user32.dll")]
+    private static extern IntPtr GetForegroundWindow();
+    public bool IsGameFocused { get {
+            var process = Process.GetProcessById((int)Core.Process.Pid);
+            return process.MainWindowHandle != IntPtr.Zero &&
+            GetForegroundWindow() == process.MainWindowHandle;
+        }
+    }
 
     //--| Modules |-----------------------------------------------------------------------------------------------------
     private SettingsUI? _settingsUI;
@@ -141,6 +152,10 @@ public sealed class Plugin : PCore<Settings> {
         if (Core.States.GameCurrentState is not (GameStateTypes.InGameState or GameStateTypes.EscapeState)) return;
         if (Core.States.InGameStateObject.GameUi.SkillTreeNodesUiElements.Count > 0) return;
 
+        var areaDetails = Core.States?.InGameStateObject?.CurrentWorldInstance?.AreaDetails;
+        var currentAreaInstance = Core.States?.InGameStateObject.CurrentAreaInstance;
+        if (areaDetails == null || currentAreaInstance == null) return;
+
         ImGui.SetNextWindowPos(DXT.ActiveMapPosition);
         ImGui.SetNextWindowSize(DXT.ActiveMapSize);
         ImGui.Begin("Wraedar_background",
@@ -154,19 +169,21 @@ public sealed class Plugin : PCore<Settings> {
             ImGuiWindowFlags.NoBackground);
         _wraedarWindowPtr = ImGui.GetWindowDrawList();
 
-        if (DXT.IsLargeMapVisible) {
+        if (DXT.LargeMap != null && DXT.IsLargeMapVisible) {
 
             DXT.Monitor("Wraedar", "LargeMapZoom", DXT.LargeMap.Zoom);
             DXT.Monitor("Wraedar", "LargeMapScale", DXT.ActiveMapScale);
             DXT.Monitor("Wraedar", "LargeMapCenter", DXT.ActiveMapCenter);
             DXT.Monitor("Wraedar", "LargeMapPosition", DXT.ActiveMapPosition);
             DXT.Monitor("Wraedar", "LargeMapSize", DXT.ActiveMapSize);
-            var currentAreaInstance = Core.States.InGameStateObject.CurrentAreaInstance;
             if (currentAreaInstance.Player.TryGetComponent<Render>(out var playerRender)) {
                 DXT.Monitor("Wraedar", "Player Height", playerRender.TerrainHeight);
                 DXT.Monitor("Wraedar", "Player ClampedHeight", playerRender.TerrainHeight > 0.01f ? playerRender.TerrainHeight : 0f);
             }
-            if (!Settings.DrawWhenPOEForegroundOnly || Core.Process.Foreground) {
+
+            if ((!Settings.DrawIfForegroundOnly || IsGameFocused ) &&
+                (Settings.DrawInSafeArea || !areaDetails.IsHideout && !areaDetails.IsTown )) 
+            {
                 MapRenderer.Render();
                 PinRenderer.Render();
                 IconRenderer.Render();
