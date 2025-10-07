@@ -13,7 +13,8 @@ namespace Wraedar
 
         public bool DrawOverPanels = false;
         public bool DebugWalkableTerrain = false;
-        public bool DrawWhenPOEForegroundOnly = false;
+        public bool DrawIfForegroundOnly = false;
+        public bool DrawInSafeArea = false;
 
         public IconsSettings Icons = new();
         public PinSettings Pin = new();
