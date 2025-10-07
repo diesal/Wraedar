@@ -5,7 +5,8 @@ using SColor = System.Drawing.Color;
 namespace Wraedar
 {
     public sealed class Settings : IPSettings
-    {
+    {   
+
         public DXTSettings DXTSettings = new();  
 
         public bool SettingsWindowOpen = false;
@@ -49,7 +50,6 @@ namespace Wraedar
         public void RemoveCustomPathIcon(int index) {
             if (index >= 0 && index < Icons.CustomPathIcons.Count) Icons.CustomPathIcons.RemoveAt(index);
         }
-
     }
     public sealed class MapSettings
     {

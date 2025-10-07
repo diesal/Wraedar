@@ -8,7 +8,6 @@ using GameHelper.RemoteObjects.Components;
 using ImGuiNET;
 using Newtonsoft.Json;
 using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 using SColor = System.Drawing.Color;
 using SVector2 = System.Numerics.Vector2;
@@ -20,6 +19,7 @@ public sealed class Plugin : PCore<Settings> {
 
     #region --| Deferred Initialization |-------------------------------------------------------------------------------
     private bool _initialised = false;
+    private bool _initialising = false;
     private bool _canEnable = false;
     public override void DrawUI() {
         if (GameHelper.Core.States.GameCurrentState == GameStateTypes.GameNotLoaded) return;
@@ -93,10 +93,11 @@ public sealed class Plugin : PCore<Settings> {
 
     //--| Initialise |--------------------------------------------------------------------------------------------------
     private void Initialise() {
-        _initialised = true;
+        if (_initialised || _initialising) return; // Prevent re-entry
+        _initialising = true;
 
         LoadSettings();
-        Extensions.Settings = Settings;
+        //Extensions.Settings = Settings;
 
         Initialise_DXT();
 
@@ -104,6 +105,9 @@ public sealed class Plugin : PCore<Settings> {
         PinRenderer.Initialise();
         IconRenderer.Initialise();
         SettingsUI.Initialise();
+
+        _initialised = true;
+        _initialising = false;
     }
     private void Initialise_DXT() {
         DXT.Initialise(new DXT.Config {
@@ -132,6 +136,7 @@ public sealed class Plugin : PCore<Settings> {
 
     //--| Draw Settings |-----------------------------------------------------------------------------------------------
     public override void DrawSettings() {
+        if (!_initialised) return;
         if (!Enabled) return;
 
         SettingsUI.Draw();
@@ -288,8 +293,9 @@ public sealed class Plugin : PCore<Settings> {
 
     //--| SaveSettings |-----------------------------------------------------------------------------------------------
     public override void SaveSettings() {
+        if (!Enabled) return;
         Directory.CreateDirectory(Path.GetDirectoryName(SettingsPath));
-        var settingsData = JsonConvert.SerializeObject(this.Settings, Formatting.Indented);
+        var settingsData = JsonConvert.SerializeObject(Settings, Formatting.Indented);
         File.WriteAllText(SettingsPath, settingsData);
     }
 
@@ -298,9 +304,9 @@ public sealed class Plugin : PCore<Settings> {
         if (File.Exists(SettingsPath)) {
             var settingsData = File.ReadAllText(SettingsPath);
             try {
-                var loadedSettings = JsonConvert.DeserializeObject<Settings>(settingsData);
+                var loadedSettings = JsonConvert.DeserializeObject<Settings>(settingsData, new JsonSerializerSettings { ObjectCreationHandling = ObjectCreationHandling.Replace });
                 if (loadedSettings != null) {
-                    this.Settings = loadedSettings;
+                    Settings = loadedSettings;
                     DXT.Log($"{Name} Settings loaded from {SettingsPath}", false);
                 }
             } catch (JsonException ex) {
