@@ -371,6 +371,14 @@ public sealed class SettingsUI(Plugin plugin) : PluginModule(plugin) {
         DXT.Label.Draw("Color Cycle", checkboxLabelOptions);
 
         ImGui.SameLine();
+        DXT.Checkbox.Draw("Pin.LearnMapBossArena", ref Settings.Pin.LearnMapBossArena, new() {
+            Height = controlHeight,
+            Tooltip = new("Learn Map Boss/Arena", "Automatically add a Boss pin from detected boss or arena tiles when no pins are configured for the area.")
+        });
+        ImGui.SameLine();
+        DXT.Label.Draw("Learn Map Boss/Arena", checkboxLabelOptions);
+
+        ImGui.SameLine();
         DXT.Slider.Draw("Pin.PathThickness", ref Settings.Pin.PathThickness, new() {
             Width = controlWidth, Height = controlHeight, Min = 1, Max = 5,
             Tooltip = new("Path Thickness"),

@@ -65,6 +65,7 @@ namespace Wraedar
         public bool Enabled = true;
         public bool DrawPaths = true;
         public bool OverrideColorPaths = false;
+        public bool LearnMapBossArena = false;
         public int PathThickness = 1;
 
         public bool EditorWindowOpen = false;

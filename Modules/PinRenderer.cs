@@ -1,9 +1,13 @@
-﻿using DieselExileTools;
+﻿using System;
+using DieselExileTools;
 using GameHelper;
 using GameHelper.RemoteEnums;
 using GameHelper.RemoteObjects.Components;
 using GameHelper.RemoteObjects.States.InGameStateObjects;
 using ImGuiNET;
+using Newtonsoft.Json;
+using System.IO;
+using System.Linq;
 using System.Numerics;
 using System.Text.RegularExpressions;
 using SColor = System.Drawing.Color;
@@ -174,9 +178,10 @@ public sealed class PinRenderer(Plugin plugin) : PluginModule(plugin)
             }
         }
     }
-    public void UpdateMatchedPins(bool force = false) {
+    public void UpdateMatchedPins(bool force = false, bool allowLearn = true) {
         if (_areaInstance == null) return;
         if (_pathFinder == null) return;
+        if (LoadedPins == null || LoadedPins.Count == 0) return;
 
         var player = _areaInstance.Player;
         if (!player.TryGetComponent<Render>(out var playerRender)) return;
@@ -223,6 +228,12 @@ public sealed class PinRenderer(Plugin plugin) : PluginModule(plugin)
             }
         }
 
+        bool hasRenderablePins = newMatches.Any(match => match.Pin.Enabled && match.TilePositions.Count > 0);
+        if (allowLearn && !hasRenderablePins && TryLearnBossPin()) {
+            UpdateMatchedPins(true, false);
+            return;
+        }
+
 
 
         // If counts differ, mark as changed
@@ -248,6 +259,98 @@ public sealed class PinRenderer(Plugin plugin) : PluginModule(plugin)
             var playerGrid = _pathFinder.PoeGridPosToPathGridPos(playerPos2D);
 
             foreach (var _ in _pathFinder.RunFirstScan(playerGrid, targetGrid)) { }
+        }
+    }
+
+    private bool TryLearnBossPin() {
+        if (!Settings.Pin.LearnMapBossArena) return false;
+        if (_areaInstance == null) return false;
+        if (LoadedPins == null) return false;
+        if (string.IsNullOrEmpty(_currentArea)) return false;
+        if (string.IsNullOrWhiteSpace(Settings.Pin.SelectedFilename)) return false;
+
+        var matchingTiles = new List<(string Key, SVector2 Position)>();
+
+        foreach (var tileEntry in _areaInstance.TgtTilesLocations) {
+            if (string.IsNullOrEmpty(tileEntry.Key)) continue;
+            if (!tileEntry.Key.Contains("boss", StringComparison.OrdinalIgnoreCase) &&
+                !tileEntry.Key.Contains("arena", StringComparison.OrdinalIgnoreCase)) continue;
+
+            foreach (var position in tileEntry.Value) {
+                matchingTiles.Add((tileEntry.Key, position));
+            }
+        }
+
+        if (matchingTiles.Count == 0) return false;
+
+        var center = new SVector2(
+            (float)matchingTiles.Average(tile => tile.Position.X),
+            (float)matchingTiles.Average(tile => tile.Position.Y));
+
+        var bestTile = matchingTiles
+            .OrderBy(tile => Vector2.DistanceSquared(tile.Position, center))
+            .First();
+
+        if (!LoadedPins.TryGetValue(_currentArea, out var areaPins)) {
+            areaPins = new List<Pin>();
+            LoadedPins[_currentArea] = areaPins;
+        }
+
+        if (areaPins.Any(pin => string.Equals(pin.Label, "Boss", StringComparison.OrdinalIgnoreCase))) {
+            return false;
+        }
+
+        var existingPin = areaPins
+            .FirstOrDefault(pin => string.Equals(pin.Path, bestTile.Key, StringComparison.OrdinalIgnoreCase));
+        if (existingPin != null) {
+            if (string.Equals(existingPin.Label, "Boss", StringComparison.OrdinalIgnoreCase)) {
+                return false;
+            }
+
+            var previousLabel = existingPin.Label;
+            existingPin.Label = "Boss";
+            if (SaveLoadedPinsToFile()) {
+                DXT.Log($"Learned Boss pin for area {_currentArea}: {bestTile.Key}", false);
+                return true;
+            }
+
+            existingPin.Label = previousLabel;
+            return false;
+        }
+
+        var newPin = new Pin {
+            Path = bestTile.Key,
+            Label = "Boss",
+        };
+
+        areaPins.Add(newPin);
+        if (SaveLoadedPinsToFile()) {
+            DXT.Log($"Learned Boss pin for area {_currentArea}: {bestTile.Key}", false);
+            return true;
+        }
+
+        areaPins.Remove(newPin);
+        if (areaPins.Count == 0) {
+            LoadedPins.Remove(_currentArea);
+        }
+        return false;
+    }
+
+    private bool SaveLoadedPinsToFile() {
+        if (LoadedPins == null) return false;
+        var fileName = Settings.Pin.SelectedFilename;
+        if (string.IsNullOrWhiteSpace(fileName)) return false;
+
+        try {
+            Directory.CreateDirectory(Plugin.PinPath);
+            var filePath = Path.Combine(Plugin.PinPath, fileName);
+            var json = JsonConvert.SerializeObject(LoadedPins, Formatting.Indented);
+            File.WriteAllText(filePath, json);
+            return true;
+        }
+        catch (Exception ex) {
+            DXT.Log($"Failed to save learned Boss pin: {ex.Message}", false);
+            return false;
         }
     }
 
